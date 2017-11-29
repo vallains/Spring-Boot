@@ -1,10 +1,9 @@
 package com.vallain.demo.controller;
 
-import org.springframework.beans.factory.annotation.Required;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
-@Controller
+@RestController
 public class MyController {
 	
 	@RequestMapping("/")
